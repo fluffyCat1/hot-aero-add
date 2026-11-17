@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="hotstuff_cbc_armor"
+version="1.0.0"
+displayName="Hot's Aerostuff x CBC Armor"
+description='''
+Заполняемые паруса и корпус связи из Hot's Aerostuff наследуют броню блока, вставленного в них, в Create Big Cannons.
+'''
+
+[[dependencies.hotstuff_cbc_armor]]
+modId="hotstuff"
+type="required"
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.hotstuff_cbc_armor]]
+modId="createbigcannons"
+type="required"
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"

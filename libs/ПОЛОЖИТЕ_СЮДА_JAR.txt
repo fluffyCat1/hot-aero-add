@@ -1,0 +1,1 @@
+Скопируйте сюда из папки mods: createbigcannons-*.jar, hotstuff-*.jar, create-1.21.1-*.jar.
